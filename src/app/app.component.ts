@@ -11,14 +11,44 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 export class AppComponent {
   public appPages = [
     {
-      title: 'Home',
+      title: 'Inicio',
       url: '/home',
       icon: 'home'
     },
     {
-      title: 'List',
+      title: 'Perfil',
       url: '/list',
-      icon: 'list'
+      icon: 'person'
+    },
+    {
+      title: 'Noticias(novedades)',
+      url: '/list',
+      icon: 'today'
+    },
+     {
+      title: 'Informacion del Lago',
+      url: '/list',
+      icon: 'book'
+    }, 
+    {
+      title: '¿Cómo llegar?',
+      url: '/list',
+      icon: 'locate'
+    },
+     {
+      title: 'Calendario de eventos',
+      url: '/list',
+      icon: 'Calendar'
+    },
+     {
+      title: 'Bonos por juegos ecológicos',
+      url: '/list',
+      icon: 'ribbon'
+    },
+    {
+      title: 'Configuración',
+      url: '/list',
+      icon: 'build'
     }
   ];
 
